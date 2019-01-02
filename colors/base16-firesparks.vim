@@ -2,7 +2,7 @@
 
 " base16-vim (https://github.com/chriskempson/base16-vim)
 " by Chris Kempson (http://chriskempson.com)
-" Materia scheme by Hendrikpetertje
+" Colorscheme scheme by Hendrikpetertje
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -126,7 +126,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-materia"
+let g:colors_name = "base16-firesparks"
 
 " Highlighting function
 " Optional variables are attributes and guisp
