@@ -226,7 +226,7 @@ call <sid>hi("WildMenu",      s:gui05, s:gui03, s:cterm05, s:cterm03, "", "")
 call <sid>hi("Title",         s:gui09, "", s:cterm09, "", "none", "")
 call <sid>hi("Conceal",       "", s:gui01, "", s:cterm01, "", "")
 call <sid>hi("Cursor",        "", s:gui01, "", s:cterm01, "", "")
-call <sid>hi("NonText",       s:gui00, "", s:cterm00, "", "", "")
+call <sid>hi("NonText",       s:gui04, "", s:cterm04, "", "", "")
 call <sid>hi("LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
 call <sid>hi("SignColumn",    s:gui00, s:gui0E, s:cterm00, s:cterm0E, "", "")
 call <sid>hi("StatusLine",    s:gui05, s:gui01, s:cterm05, s:cterm01, "none", "")
@@ -253,7 +253,7 @@ call <sid>hi("Define",       s:gui0A, "", s:cterm0A, "", "none", "")
 call <sid>hi("Delimiter",    s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("Float",        s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("Function",     s:gui09, "", s:cterm09, "", "", "")
-call <sid>hi("Identifier",   s:gui05, "", s:cterm05, "", "none", "")
+call <sid>hi("Identifier",   s:gui0E, "", s:cterm0E, "", "none", "")
 call <sid>hi("Include",      s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("Keyword",      s:gui09, "", s:cterm09, "", "", "")
 call <sid>hi("Label",        s:gui09, "", s:cterm09, "", "", "")
@@ -327,8 +327,9 @@ call <sid>hi("GitGutterChangeDelete",  s:gui0E, s:gui01, s:cterm0E, s:cterm01, "
 " " HTML highlighting
 call <sid>hi("htmlBold",    s:gui0E, "", s:cterm0E, "", "bold", "")
 call <sid>hi("htmlItalic",  s:gui0E, "", s:cterm0E, "", "italic", "")
-call <sid>hi("htmlEndTag",  s:gui09, "", s:cterm09, "", "", "")
+call <sid>hi("htmlEndTag",  s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("htmlTag",     s:gui0A, "", s:cterm0A, "", "", "")
+hi link xmlEndTag xmlTag
 
 " " JavaScript highlighting
 call <sid>hi("javaScript",        s:gui0A, "", s:cterm0A, "", "", "")
